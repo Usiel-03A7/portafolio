@@ -15,10 +15,9 @@
     height: 500px;
     width: 350px;
     border-radius: 3px;
-    transition: .8s;
 }
 .container__proyectos {
-    display: flex;;
+    display: flex;
 }
 .proyectos__img--info {
     height: 70px;
@@ -26,7 +25,7 @@
     padding: 6px;
     box-sizing: border-box;
     position: absolute;
-    transition: .8s;
+    transition: s;
     color: #333;
     bottom: -432px;
 }
@@ -60,4 +59,21 @@ span {
 .proyectos__tarrget:hover img {
     transform: scale(1.1) ;
     rotate: 90;
+}
+@media (max-width: 768px) {
+    .proyectos {
+        margin-top: 50rem;
+        justify-content: center;
+        text-align: center;
+    }
+    .container__proyectos{
+        display: flex;
+        flex-direction: column;
+    }
+    .proyectos__tarrget {
+       pointer-events: none;
+
+    }
+    
+    
 }
