@@ -1,0 +1,36 @@
+.inicio {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+.inicio_img {
+  display: flex;
+  width: 35%;
+  align-items: center;
+}
+.inicio_img img {
+  width: 70%;
+  border-radius: 2rem;
+  margin: 0 auto;
+}
+
+.inicio_texto {
+  display: flex;
+  
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  font-size: 1.7rem;
+  width: 55%;
+}
+.inicio_texto p{
+  text-align: justify;
+}
+@media (max-width: 768px) {
+  .inicio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+  }
+}
