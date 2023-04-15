@@ -18,16 +18,16 @@ function Nav() {
           </button>
           <ul className='nav_links' id='menu'>
             <li>
-              <a className='nav_link' href="#carrousel">Inicio</a>
+              <a className='nav_link' href="#inicio">Inicio</a>
             </li>
             <li>
-              <a className='nav_link' href="#anuncios">Quien Soy</a>
+              <a className='nav_link' href="#aboutme">Quien Soy</a>
             </li>
             <li>
-              <a className='nav_link' href="#about">Proyectos</a>
+              <a className='nav_link' href="#proyect">Proyectos</a>
             </li>
             <li>
-              <a className='nav_link' href="#contact">Contactame</a>
+              <a className='nav_link' href="#contactme">Contactame</a>
             </li>
           </ul>
         </div>

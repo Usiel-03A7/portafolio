@@ -1,6 +1,7 @@
 .inicio {
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   height: 100%;
 }
@@ -18,32 +19,43 @@
 
 .inicio_texto {
   display: flex;
-  
+  justify-content: center;
+  text-align: center;
   flex-direction: column;
-  margin: 0 auto;
   align-items: center;
   font-size: 1.7rem;
-  width: 85%;
+  width: 100%;
 }
-.inicio_texto p{
+.inicio_texto p {
   text-align: justify;
+  width: 90%;
+  margin-right: 8rem;
 }
 @media (max-width: 768px) {
-  .inicio{
+  .inicio {
     display: flex;
     flex-direction: column;
     margin-top: 6rem;
   }
   .inicio_img img {
-    width:1000%;
+    width: 1000%;
     border-radius: 2rem;
     margin: 0 auto;
     margin-top: 1rem;
   }
   .inicio_img {
     display: flex;
-  width: 50%;
-  margin-top: 0rem;
-  align-items: center;
+    width: 50%;
+    margin-top: 0rem;
+    align-items: center;
+  }
+  .inicio_texto {
+    width: 75%;
+    margin-left: 22%;
+  }
+  .inicio_texto h1 {
+    width: 100%;
+    font-size: 4rem;
+    margin: 0 7rem 0 0 ;
   }
 }

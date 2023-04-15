@@ -32,10 +32,11 @@
   width: 350px;
   padding: 6px;
   box-sizing: border-box;
+  text-transform: uppercase;
   position: absolute;
   transition: .5s;
-  color: #333;
-  bottom: -432px;
+  color: #ffffff;
+  bottom: -152px;
 }
 .proyectos__img--info h3 {
   margin: 10px;
