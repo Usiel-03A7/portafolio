@@ -5,7 +5,7 @@ export default function Proyectos() {
       <div className="proyectos__tittle">
         <h2>Proyectos</h2>
         <div className="container__proyectos">
-          <div className="proyectos__tarrget">
+          <div className=" proyectos__tarrget ">
           <img src="./img/PDA.webp" alt="" />
             <div className="proyectos__img--info">
               <h3>pan de azúcar </h3>
@@ -14,7 +14,7 @@ export default function Proyectos() {
               </p>
             </div>
           </div>
-          <div className="proyectos__tarrget">
+          <div className=" proyectos__tarrget">
             <img src="./img/MStecs.webp" alt="" />
             <div className="proyectos__img--info">
               <h3>MStecs (multicloud Group)</h3>
@@ -24,7 +24,7 @@ export default function Proyectos() {
               </p>
             </div>
           </div>
-          <div className="proyectos__tarrget">
+          <div className=" proyectos__tarrget">
             <img src="./img/Yazaki.webp" alt="" />
             <div className="proyectos__img--info">
               <h3>Yazaki</h3>
