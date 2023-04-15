@@ -61,28 +61,39 @@ span {
 }
 @media (max-width: 768px) {
   .proyectos {
-    margin-top:40rem;
+    margin-top:45rem;
     justify-content: center;
     text-align: center;
     pointer-events: none;
     visibility: visible;
     opacity: 1;
   }
+  .proyectos__tittle h2{
+    padding: 3rem;
+  }
   .container__proyectos {
     display: flex;
     flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    gap: 4rem;
+    justify-content: center;
     position: static;
   }
   .proyectos__tarrget {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
     overflow: visible;
+    width: 90%;
     gap: 1rem;
     margin-bottom: 4rem;
     background: #fff;
   }
   .proyectos__tarrget img{
     height: 100%;
+    width: 100%;
   }
   .proyectos__img--info p {
     visibility: visible;
