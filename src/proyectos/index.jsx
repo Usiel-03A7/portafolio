@@ -6,11 +6,12 @@ export default function Proyectos() {
         <h2>Proyectos</h2>
         <div className="container__proyectos">
           <div className=" proyectos__tarrget ">
-          <img src="./img/PDA.webp" alt="" />
+            <img src="./img/PDA.webp" alt="" />
             <div className="proyectos__img--info">
               <h3>pan de azúcar </h3>
               <p>
-                Se hizo un menú el cual mediante un QR redirigía al link de donde estaba almacenado.
+                Se hizo un menú el cual mediante un QR redirigía al link de
+                donde estaba almacenado.
               </p>
             </div>
           </div>

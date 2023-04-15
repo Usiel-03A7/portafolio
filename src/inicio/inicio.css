@@ -17,12 +17,11 @@
 
 .inicio_texto {
   display: flex;
-  
   flex-direction: column;
   margin: 0 auto;
   align-items: center;
   font-size: 1.7rem;
-  width: 55%;
+  width: 80%;
 }
 .inicio_texto p{
   text-align: justify;
