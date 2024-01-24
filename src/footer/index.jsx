@@ -4,6 +4,9 @@ export default function Footer (){
         <>
         <div className="futter">
             <h3>Workin in this page</h3>
+            <ul>
+                <li>Uno</li>
+            </ul>
         </div>
         </>
     )
